@@ -348,6 +348,7 @@ get_journalrank <- function(journals, max.distance = 0.05) {
 ##' @importFrom xml2 read_html
 ##' @importFrom rvest html_nodes html_text html_attr
 ##' @import R.cache
+##' @author André Calero Valdez
 ##' @export
 #'
 # ' @examples
@@ -400,6 +401,7 @@ get_publication_abstract <- function(id, pub_id, flush = FALSE) {
 ##' @importFrom xml2 read_html
 ##' @importFrom rvest html_nodes html_text html_attr
 ##' @import R.cache
+##' @author André Calero Valdez
 ##' @export
 #'
 # ' @examples
@@ -447,6 +449,7 @@ get_publication_url <- function(id, pub_id, flush = FALSE) {
 ##'
 ##' @return a String that contains the URL to the scholar website of the article
 ##'
+##' @author André Calero Valdez
 ##' @export
 #'
 # ' @examples
@@ -476,6 +479,7 @@ get_article_scholar_url <- function(id, pubid){
 ##' @importFrom xml2 read_html
 ##' @importFrom rvest html_nodes html_text html_attr
 ##' @import R.cache
+##' @author André Calero Valdez
 ##' @export
 #'
 # ' @examples
@@ -534,6 +538,7 @@ get_publication_date <- function(id, pub_id, flush = FALSE) {
 ##' @importFrom xml2 read_html
 ##' @importFrom rvest html_nodes html_text html_attr
 ##' @import R.cache
+##' @author André Calero Valdez
 ##' @export
 #'
 # ' @examples
